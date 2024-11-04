@@ -24,6 +24,19 @@ This project uses a Convolutional Neural Network (CNN) to recognize handwritten 
    git clone https://github.com/yourusername/Handwritten-Digit-Recognition.git
    cd Handwritten-Digit-Recognition
 
-## Install the required packages:
-```bash pip install -r requirements.txt
+2. **Install the required packages**:
+    ```bash
+      pip install -r requirements.txt
 
+## Usage 
+1. Data Preprocessing: Run the data_preprocessing.py script to preprocess the MNIST dataset into a suitable format for training:
+2. Train the model on the preprocessed data by running model_training.py
+3. Model Testing with Test Data by model_testing.py.
+4. Testing with New Data by digit_drawer.py an simple gui test.
+
+## Requirements
+- Python 3.7+
+- TensorFlow
+- Pandas
+- Numpy
+- Matplotlib (for digit drawer visualization)
