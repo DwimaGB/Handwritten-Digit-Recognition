@@ -29,10 +29,31 @@ This project uses a Convolutional Neural Network (CNN) to recognize handwritten 
       pip install -r requirements.txt
 
 ## Usage 
-1. Data Preprocessing: Run the data_preprocessing.py script to preprocess the MNIST dataset into a suitable format for training:
-2. Train the model on the preprocessed data by running model_training.py
-3. Model Testing with Test Data by model_testing.py.
-4. Testing with New Data by digit_drawer.py an simple GUI test.
+
+1. **Data Preprocessing:** Run the `data_preprocessing.py` script to preprocess the MNIST dataset into a suitable format for training:
+
+    ```bash
+    python data_preprocessing.py
+    ```
+
+2. **Model Training:** Train the model on the preprocessed data by running:
+
+    ```bash
+    python model_training.py
+    ```
+
+3. **Model Testing with Test Data:** Evaluate the trained model's performance on the test dataset by executing:
+
+    ```bash
+    python model_testing.py
+    ```
+
+4. **Testing with New Data:** Use the `digit_drawer.py` script to open a simple GUI for testing new handwritten digit inputs:
+
+    ```bash
+    python digit_drawer.py
+    ```
+
 
 ## Requirements
 - Python 3.7+
